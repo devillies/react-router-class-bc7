@@ -7,6 +7,6 @@ export default class User extends React.Component {
   };
   render() {
     let { username } = this.state;
-    return <text values={username}>${username}</text>;
+    return <span>${username}</span>;
   }
 }
