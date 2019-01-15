@@ -7,6 +7,7 @@ export default class User extends React.Component {
   };
   render() {
     let { username } = this.state;
-    return <span>${username}</span>;
+    let regex = /welcome \w+/;
+    return <span>${regex.match(username)}</span>;
   }
 }
