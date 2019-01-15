@@ -1,7 +1,7 @@
 //@ flow
 import React from "react";
 
-class User extends React.Component {
+export default class User extends React.Component {
   state = {
     username: "Juan"
   };
